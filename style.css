@@ -1,0 +1,152 @@
+
+  
+/* Entete de la page RubMax Servicos */
+
+#flex-container{
+  
+}
+#conteneurEntete {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  background-color: white;
+}
+#conteneurEntete > div {
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  width: 33%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/* Les links de online case */
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+#flex-container > div {
+  background-color: rgb(131, 173, 220);
+  margin-left: 1px;
+  padding: 0px;
+  font-size: 20px;
+  width: 20.2%;
+  height: 1200px;
+
+  
+}
+h5 {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding-left: 40px;
+}
+.bloquesGch{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+ .bloquesDt{
+  background-color: white;
+  text-align: center;
+    }
+    
+/* Links over&click modifications */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: blue;
+}
+.milieuServices{
+  color: white;
+  text-align: left;
+}
+.OnlineService{
+  color: white;
+}
+.webPage{
+  color: white;
+}
+/* UTEIS */
+.maxLinks{
+}
+
+
+/* Pied de page */
+#conteneurPied{
+  border-radius: 0px 0px 15px 15px;
+  background-color: rgb(131, 173, 220);
+  margin: px;
+  display: flex;
+  justify-content: center;
+  width: ;
+}
+.txtPied{
+  color: black;
+  text-align: center;
+}
+
+
+
+/* Tooltip container */
+
+.tooltip {
+  position:relative;
+  display: inline-block;
+  border-bottom: 0px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: rgb(131, 173, 220);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left:50px;
+
+  /* Fade in tooltip */
+  opacity: 0%;
+  transition: opacity 0.9s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  
+  position: static;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
